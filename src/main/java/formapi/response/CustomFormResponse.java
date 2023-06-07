@@ -8,6 +8,6 @@ import java.util.List;
 
 public interface CustomFormResponse extends FormResponse {
 
-    void handle(Player p, FormWindowCustom f, List<Object> data);
+    void handle(Player p, FormWindowCustom f, List<Object> d);
 
 }
