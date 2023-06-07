@@ -34,7 +34,7 @@ CustomForm customForm = new CustomForm("title");
     customForm.addSlider("slider text", 0, 20); //CustomForm slider
     customForm.addToggle("toggle text", false); //CustomForm toggle
     customForm.sendToPlayer(sender, (targetSender, targetForm, args) -> {
-        if(data == null) return; //returns null if args is not selected.
+        if(args == null) return; //returns null if args is not selected.
         targetSender.sendMessage("Args 0: "args.get(0));
         targetSender.sendMessage("Args 1: "args.get(1));
         targetSender.sendMessage("Args 2: "args.get(2));
