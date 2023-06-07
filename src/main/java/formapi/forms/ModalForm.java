@@ -46,12 +46,12 @@ public class ModalForm extends Form {
         return this;
     }
 
-    public ModalForm setButton1(String value) {
+    public ModalForm setTrueButton(String value) {
         ((FormWindowModal) formWindow).setButton1(value);
         return this;
     }
 
-    public ModalForm setButton2(String value) {
+    public ModalForm setFalseButton(String value) {
         ((FormWindowModal) formWindow).setButton2(value);
         return this;
     }
