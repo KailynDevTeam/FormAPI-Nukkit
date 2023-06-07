@@ -6,6 +6,6 @@ import formapi.response.FormResponse;
 
 public interface SimpleFormResponse extends FormResponse {
 
-    void handle(Player p, FormWindowSimple f, int data);
+    void handle(Player p, FormWindowSimple f, int d);
 
 }
