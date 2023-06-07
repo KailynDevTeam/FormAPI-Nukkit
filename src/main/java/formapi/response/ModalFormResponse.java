@@ -6,6 +6,6 @@ import formapi.response.FormResponse;
 
 public interface ModalFormResponse extends FormResponse {
 
-    void handle(Player p, FormWindowModal f, int data);
+    void handle(Player p, FormWindowModal f, int d);
 
 }
